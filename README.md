@@ -6,6 +6,7 @@ anytime picker http://www.ama3.com/anytime/ for yii
 Usage:
 ------
 <code>
+<pre>
 $this->widget('application.extensions.anytimedatepicker.AnytimeDatePicker', array(
     'model'             =>  $model,
     'attribute'         =>  'date_field_name',
@@ -24,4 +25,5 @@ $this->widget('application.extensions.anytimedatepicker.AnytimeDatePicker', arra
         'class'     =>  'span2',
     ),
 ));
+</pre>
 </code>
